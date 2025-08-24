@@ -10,8 +10,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum AQArmorMaterials implements ArmorMaterial {
-    TURTLE_MASTER_MATERIAL("turtle_master", 26, new int[]{3, 8, 6, 3 }, 25,
-            SoundEvents.ARMOR_EQUIP_TURTLE, 2f, 0.1f, () -> Ingredient.of(AQItems.TURTLE_INGOT.get())),
+    TURTLE_MASTER_MATERIAL("turtle_master", 26, new int[]{3, 8, 6, 3 }, 20,
+            SoundEvents.ARMOR_EQUIP_TURTLE, 2f, 0.15f, () -> Ingredient.of(AQItems.TURTLE_INGOT.get())),
 
     TURTLE_MATERIAL("turtle", 26, new int[]{ 5, 6, 5, 2 }, 12,
     SoundEvents.ARMOR_EQUIP_NETHERITE, 0f, 0.05f, () -> Ingredient.of(AQItems.TURTLE_INGOT.get()));
