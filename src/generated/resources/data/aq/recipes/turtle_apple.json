@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "I": {
+      "item": "aq:turtle_ingot"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IAI",
+    " I "
+  ],
+  "result": {
+    "item": "aq:turtle_apple"
+  },
+  "show_notification": true
+}

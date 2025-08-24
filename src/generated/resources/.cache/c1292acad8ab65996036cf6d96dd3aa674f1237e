@@ -1,0 +1,3 @@
+// 1.20.1	2025-01-31T21:41:56.159590913	Tags for minecraft:block mod id aq
+65bd40a2ca161fa79a41b0034f16a963eed75fb9 data/minecraft/tags/blocks/mineable/pickaxe.json
+d9b741cf0e82b34f192ba78d353325d6d79b818e data/minecraft/tags/blocks/needs_iron_tool.json

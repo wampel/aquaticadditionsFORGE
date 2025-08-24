@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:scute"
+    }
+  },
+  "pattern": [
+    "   ",
+    "B B",
+    "B B"
+  ],
+  "result": {
+    "item": "aq:turtle_boots"
+  },
+  "show_notification": true
+}
