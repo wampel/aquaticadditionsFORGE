@@ -1,18 +1,28 @@
 package main.wampi.aq.item;
 
 import main.wampi.aq.AquaticAdditions;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SmithingTemplateItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.List;
+
+import static main.wampi.aq.item.TurtleMasterCraftingUpgrade.createTurtleMasterTemplate;
 
 public class AQItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AquaticAdditions.MODID);
 
     public static final RegistryObject<Item> TURTLE_INGOT = ITEMS.register("turtle_ingot",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> TURTLE_MASTER_CRAFTING_UPGRADE = ITEMS.register("turtle_master_crafting_upgrade",
+                    () -> TurtleMasterCraftingUpgrade.createTurtleMasterTemplate("item." + AquaticAdditions.MODID + ".turtle_master_upgrade"));
 
     //Turtle master armor
     public static final RegistryObject<Item> TURTLE_MASTER_HELMET = ITEMS.register("turtle_master_helmet",
